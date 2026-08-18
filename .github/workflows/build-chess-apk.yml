@@ -2,6 +2,8 @@ name: Build Tática 64 APK
 on:
   push:
     branches: [build/chess-tactics-android16]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 jobs:
   build:
