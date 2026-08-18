@@ -27,3 +27,4 @@ jobs:
         with:
           name: Tatica64-Android16
           path: Tatica64/app/build/outputs/apk/debug/app-debug.apk
+# trigger PR build
